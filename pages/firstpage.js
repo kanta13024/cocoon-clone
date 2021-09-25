@@ -2,19 +2,18 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Nav from "../components/Nav";
-import Main from "../components/Main";
+import MainFirstPage from "../components/MainFirstPage";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
-export default function Home() {
+function firstpage() {
   return (
-    <div className="bg-yellow-100">
+    <div>
       <Head>
-        <title>Cocoon-clone-youtube</title>
+        <title>Programing-School First Page</title>
         <link rel="icon" href="/newguunma-fav.png" />
       </Head>
-
-      {/* header */}
+      {/* Header */}
       <Header />
 
       {/* Banner */}
@@ -25,10 +24,7 @@ export default function Home() {
 
       {/* Main */}
       <main className="flex">
-        {/* Right */}
-        <Main />
-
-        {/* Left */}
+        <MainFirstPage />
         <Sidebar />
       </main>
 
@@ -37,3 +33,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default firstpage;

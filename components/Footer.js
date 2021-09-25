@@ -2,17 +2,57 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="flex bg-black text-white h-32 p-4 justify-between">
-      <Image
-        src="https://guntaro.blog/wp-content/uploads/2021/09/logoNew%E3%81%8F%E3%82%99%E3%82%93%E3%81%9F%E3%82%8D-1.png"
-        height={100}
-        width={200}
-      />
-      <p>This article is 働かない理由とは</p>
-      <div>
-        <p>home</p>
-        <p>about</p>
-        <p>Privacy policy</p>
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-black text-white">
+      <div className="space-y-4">
+        <h5 className="font-bold">About</h5>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+      </div>
+
+      <div className="space-y-4">
+        <h5 className="font-bold">Contact</h5>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+      </div>
+
+      <div className="space-y-4">
+        <h5 className="font-bold">Privacy Policy</h5>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+      </div>
+
+      <div className="space-y-4">
+        <h5 className="font-bold">Thank you comming</h5>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
+        <p className="text-gray-500 hover:text-blue-500 hover:border-b-2 border-blue-500 trasition transform duration-150">
+          This Site is not Real
+        </p>
       </div>
     </div>
   );

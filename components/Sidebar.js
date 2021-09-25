@@ -12,7 +12,7 @@ import SidebarCard from "./SidebarCard";
 
 function Sidebar() {
   return (
-    <div className="hidden sm:block sm:flex-shrink max-w-[380px] p-4">
+    <div className="hidden md:block md:flex-shrink max-w-[380px] p-4">
       <div>
         {/* SarchArea */}
         <div className="bg-white rounded-lg shadow-md p-4">
